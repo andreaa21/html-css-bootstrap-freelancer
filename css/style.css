@@ -4,7 +4,21 @@
   box-sizing: border-box;
 }
 
+
+[class^="container"]{
+  background-color: rgba(255, 0, 0, .25);
+  border: 1px solid black;
+}
+
+[class^="col"]{
+  background-color: rgba(0, 255, 0, .5);
+  border: 1px solid red;
+  height: 80px;
+}
+
 header{
   height: 90px;
   background-color: #2C3E50;
 }
+
+
