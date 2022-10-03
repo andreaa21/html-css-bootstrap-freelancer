@@ -9,7 +9,8 @@ body{
 }
 
 
-[class^="container"]{
+[class^="container"],
+.sc-container{
   background-color: rgba(255, 0, 0, .25);
   border: 1px solid black;
 
@@ -25,6 +26,11 @@ body{
   height: 80px;
 }
 
+.sc-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
 header{
   height: 90px;
   background-color: #2C3E50;
@@ -35,4 +41,7 @@ header{
   background-color: #1ABC9C;
 }
 
+main #about{
+  background-color: #1ABC9C;
+}
 
