@@ -1,25 +1,7 @@
-body{
-  padding-bottom: 300px;
-}
+
 
 img{
   width: 100%;
-}
-
-[class^="container"],
-.sc-container{
-  /* background-color: rgba(255, 0, 0, .25);
-  border: 1px solid black; */
-
-
-  height: 100%;
-}
-
-[class^="col"]{
-  /* background-color: rgba(0, 255, 0, .5);
-  border: 1px solid red; */
-
-  min-height: 80px;
 }
 
 .sc-container{
@@ -48,6 +30,13 @@ img{
 
 }
 
+#portfolio .star:before,
+#portfolio .star:after,
+#form-section .star:before,
+#form-section .star:after{
+  background-color: black;
+}
+
 header{
   height: 90px;
   background-color: #2C3E50;
@@ -56,7 +45,6 @@ header{
 .jumbotron{
   height: 490px;
   background-color: #1ABC9C;
-  margin-bottom: 600px;
 }
 
 .jumbotron img{
@@ -65,6 +53,10 @@ header{
 
 main #about{
   background-color: #1ABC9C;
+}
+
+#about a{
+  color: white;
 }
 
 main #contacts{
