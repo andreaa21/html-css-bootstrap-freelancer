@@ -2,6 +2,9 @@ body{
   padding-bottom: 300px;
 }
 
+img{
+  width: 100%;
+}
 
 [class^="container"],
 .sc-container{
@@ -37,6 +40,7 @@ header{
 .jumbotron{
   height: 590px;
   background-color: #1ABC9C;
+  margin-bottom: 600px;
 }
 
 main #about{
