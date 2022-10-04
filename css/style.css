@@ -27,11 +27,6 @@ img{
   margin: 0 auto;
 }
 
-section{
-  margin: 50px 0;
-  /* possibilmente da cancellare */
-}
-
 header{
   height: 90px;
   background-color: #2C3E50;
@@ -41,6 +36,10 @@ header{
   height: 590px;
   background-color: #1ABC9C;
   margin-bottom: 600px;
+}
+
+.jumbotron img{
+  width: 60%;
 }
 
 main #about{
