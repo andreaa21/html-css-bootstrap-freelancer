@@ -42,9 +42,17 @@ header{
   background-color: #2C3E50;
 }
 
+header .navbar-toggler-icon{
+  filter: invert(1);
+}
+
 .jumbotron{
   height: 490px;
   background-color: #1ABC9C;
+}
+
+.jumbotron .col{
+  height: 490px;
 }
 
 .jumbotron img{
