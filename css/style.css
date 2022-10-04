@@ -8,22 +8,22 @@ img{
 
 [class^="container"],
 .sc-container{
-  background-color: rgba(255, 0, 0, .25);
-  border: 1px solid black;
+  /* background-color: rgba(255, 0, 0, .25);
+  border: 1px solid black; */
 
 
   height: 100%;
 }
 
 [class^="col"]{
-  background-color: rgba(0, 255, 0, .5);
-  border: 1px solid red;
+  /* background-color: rgba(0, 255, 0, .5);
+  border: 1px solid red; */
 
   min-height: 80px;
 }
 
 .sc-container{
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -33,13 +33,13 @@ header{
 }
 
 .jumbotron{
-  height: 590px;
+  height: 490px;
   background-color: #1ABC9C;
   margin-bottom: 600px;
 }
 
 .jumbotron img{
-  width: 60%;
+  width: 50%;
 }
 
 main #about{
