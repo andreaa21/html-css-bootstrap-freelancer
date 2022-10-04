@@ -50,6 +50,26 @@ main #contacts{
   background-color: #3A546D;
 }
 
+#contacts ul{
+  list-style: none;
+}
+
+#contacts ul li{
+  padding: .5rem;
+  width: 3rem;
+  margin: 0 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#contacts ul a{
+  color: white;
+}
+
+#contacts p>a{
+  color: #2A8F87;
+}
+
 footer{
   height: 110px;
   background-color: #2C3E50;
